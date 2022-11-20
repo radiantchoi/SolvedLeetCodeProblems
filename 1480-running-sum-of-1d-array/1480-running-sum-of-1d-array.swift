@@ -1,11 +1,9 @@
 class Solution {
     func runningSum(_ nums: [Int]) -> [Int] {
-        var gross = 0
-        var result = [Int]()
+        var result = [nums[0]]
         
-        for i in 0..<nums.count {
-            gross += nums[i]
-            result.append(gross)
+        for i in 1..<nums.count {
+            result.append(nums[i] + result[i-1])
         }
         
         return result
