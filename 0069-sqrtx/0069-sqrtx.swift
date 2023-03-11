@@ -1,7 +1,7 @@
 class Solution {
     func mySqrt(_ x: Int) -> Int {
-        let board = (0...65536).map { $0 * $0 }
         let results = Array(0...65536)
+        let board = results.map { $0 * $0 }
         
         var front = 0
         var back = board.count - 1
