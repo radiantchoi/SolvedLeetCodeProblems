@@ -1,14 +1,14 @@
 class Solution {
     func findKthPositive(_ arr: [Int], _ k: Int) -> Int {
         var result: [Int] = []
-        var current = 0
         var number = 1
+        var index = 0
         
-        while number <= 2000 && current < arr.count && result.count < k {
-            if arr[current] > number {
+        while number < 2000 && index < arr.count {
+            if arr[index] != number {
                 result.append(number)
             } else {
-                current += 1
+                index += 1
             }
             
             number += 1
@@ -19,6 +19,6 @@ class Solution {
             number += 1
         }
         
-        return result.removeLast()
+        return result[k-1]
     }
 }
