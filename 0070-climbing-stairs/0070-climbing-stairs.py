@@ -1,9 +1,9 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        stairs = [1, 1]
+        result = [0, 1, 2]
         
-        if n > 1:
-            for i in range(1, n):
-                stairs.append(stairs[i] + stairs[i-1])
-            
-        return stairs[n]
+        if n > 2:
+            for i in range(3, n+1):
+                result.append(result[i-1] + result[i-2])
+        
+        return result[n]
