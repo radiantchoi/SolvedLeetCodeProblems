@@ -11,8 +11,6 @@ class Solution {
             
             occ[num]! += 1
         }
-        
-        print(occ)
 
         for occurence in occ.values {
             let partial = breakDown(occurence)
