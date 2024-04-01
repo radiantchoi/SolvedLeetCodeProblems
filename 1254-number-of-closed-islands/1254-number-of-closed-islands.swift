@@ -5,8 +5,8 @@ class Solution {
         
         for i in 0..<grid.count {
             for j in 0..<grid[i].count {
-                var isClosed = true
                 var area = 0
+                var isClosed = true
                 
                 traverse(&grid, i, j, &isClosed, &area)
                 
@@ -29,12 +29,12 @@ class Solution {
             return
         }
         
-        area += 1
         grid[row][col] = 1
+        area += 1
         
-        traverse(&grid, row+1, col, &isClosed, &area)
         traverse(&grid, row-1, col, &isClosed, &area)
-        traverse(&grid, row, col+1, &isClosed, &area)
+        traverse(&grid, row+1, col, &isClosed, &area)
         traverse(&grid, row, col-1, &isClosed, &area)
-    } 
+        traverse(&grid, row, col+1, &isClosed, &area)
+    }
 }
