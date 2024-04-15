@@ -1,27 +1,23 @@
 class Solution {
-    func floodFill(_ image: [[Int]], _ sr: Int, _ sc: Int, _ color: Int) -> [[Int]] {        
-        let prevColor = image[sr][sc]
-        if prevColor == color {
-            return image
-        }
+    func floodFill(_ image: [[Int]], _ sr: Int, _ sc: Int, _ color: Int) -> [[Int]] {
+        var image = image
+        var prev = image[sr][sc]
         
-        var grid = image
+        traverse(&image, sr, sc, prev, color)
         
-        traverse(&grid, sr, sc, prevColor, color)
-        
-        return grid
+        return image
     }
     
-    func traverse(_ grid: inout [[Int]], _ r: Int, _ c: Int, _ prevColor: Int, _ newColor: Int) {
-        guard r >= 0 && r < grid.count && c >= 0 && c < grid[r].count && grid[r][c] == prevColor else {
+    func traverse(_ image: inout [[Int]], _ row: Int, _ col: Int, _ changing: Int, _ changed: Int) {
+        guard (0..<image.endIndex) ~= row && (0..<image[0].endIndex) ~= col && image[row][col] == changing && image[row][col] != changed else {
             return
         }
         
-        grid[r][c] = newColor
+        image[row][col] = changed
         
-        traverse(&grid, r+1, c, prevColor, newColor)
-        traverse(&grid, r-1, c, prevColor, newColor)
-        traverse(&grid, r, c-1, prevColor, newColor)
-        traverse(&grid, r, c+1, prevColor, newColor)
+        traverse(&image, row+1, col, changing, changed)
+        traverse(&image, row-1, col, changing, changed)
+        traverse(&image, row, col+1, changing, changed)
+        traverse(&image, row, col-1, changing, changed)
     }
 }
