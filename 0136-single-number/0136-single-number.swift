@@ -1,19 +1,11 @@
 class Solution {
     func singleNumber(_ nums: [Int]) -> Int {
-        let freq = nums.frequency
-        for number in freq.keys {
-            if freq[number]! == 1 {
-                return number
-            }
+        var result = 0
+        
+        for num in nums {
+            result ^= num
         }
         
-        return 0
-    }
-}
-
-extension Sequence where Element: Hashable {
-    var frequency: [Element: Int] {
-        let occurences = map { ($0, 1) }
-        return Dictionary(occurences, uniquingKeysWith: +)
+        return result
     }
 }
