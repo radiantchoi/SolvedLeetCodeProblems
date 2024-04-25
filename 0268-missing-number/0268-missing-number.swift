@@ -1,7 +1,10 @@
 class Solution {
     func missingNumber(_ nums: [Int]) -> Int {
-        let gross = nums.reduce(0, +)
-        let expected = (nums.count) * (nums.count + 1) / 2
-        return expected - gross
+        var result = (1...nums.count).reduce(0, +)
+        for number in nums {
+            result -= number
+        }
+        
+        return result
     }
 }
