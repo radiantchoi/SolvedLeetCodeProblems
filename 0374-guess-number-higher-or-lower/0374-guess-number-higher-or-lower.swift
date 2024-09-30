@@ -9,23 +9,19 @@
 
 class Solution : GuessGame {
     func guessNumber(_ n: Int) -> Int {
-        var lower = 1
-        var upper = n
-        
-        while lower <= upper {
-            let mid = (lower + upper) / 2
-            
-            let result = guess(mid)
-            
-            if result == -1 {
-                upper = mid - 1
-            } else if result == 1 {
-                lower = mid + 1
+        var low = 1
+        var high = n
+
+        while low < high {
+            let mid = (low + high) / 2
+
+            if guess(mid) == 1 {
+                low = mid + 1
             } else {
-                return mid
+                high = mid
             }
         }
-        
-        return 0
+
+        return low
     }
 }
