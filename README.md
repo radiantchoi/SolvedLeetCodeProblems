@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0021-merge-two-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0083-remove-duplicates-from-sorted-list) |
 ## Tree
 |  |
@@ -69,4 +70,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
