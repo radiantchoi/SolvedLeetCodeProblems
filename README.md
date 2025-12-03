@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0027-remove-element](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0027-remove-element) |
 | [0074-search-a-2d-matrix](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0079-word-search) |
 | [0436-find-right-interval](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0436-find-right-interval) |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0079-word-search) |
 ## Sorting
 |  |
 | ------- |
@@ -45,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0079-word-search) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0112-path-sum) |
 ## Breadth-First Search
@@ -74,4 +77,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0021-merge-two-sorted-lists) |
+## String
+|  |
+| ------- |
+| [0079-word-search](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0079-word-search) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
