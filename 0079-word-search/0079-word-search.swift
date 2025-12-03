@@ -2,18 +2,17 @@ class Solution {
     func exist(_ board: [[Character]], _ word: String) -> Bool {
         let target = Array(word)
         let threshold = target.count
-        var result = false
         var board = board
 
         for i in 0..<board.count {
             for j in 0..<board[i].count {
-                if result == true { break }
-
-                result = result || traverse(&board, 0, i, j, threshold, target)
+                if traverse(&board, 0, i, j, threshold, target) {
+                    return true
+                }
             }
         }
 
-        return result
+        return false
     }
 
     func traverse(_ board: inout [[Character]], _ checked: Int, _ row: Int, _ col: Int, _ threshold: Int, _ target: [Character]) -> Bool {
