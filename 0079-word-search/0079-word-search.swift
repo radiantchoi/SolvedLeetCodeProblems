@@ -1,40 +1,44 @@
 class Solution {
     func exist(_ board: [[Character]], _ word: String) -> Bool {
-        let word = Array(word)
-        let visited = Array(repeating: Array(repeating: false, count: board[0].count), count: board.count)
-        
-        for row in 0..<board.count {
-            for col in 0..<board[row].count {
-                if traverse(board, visited, word, row, col, []) {
-                    return true
-                }
+        let target = Array(word)
+        let threshold = target.count
+        var result = false
+        var board = board
+
+        for i in 0..<board.count {
+            for j in 0..<board[i].count {
+                if result == true { break }
+
+                result = result || traverse(&board, 0, i, j, threshold, target)
             }
         }
-        
-        return false
+
+        return result
     }
-    
-    func traverse(_ board: [[Character]], _ visited: [[Bool]], _ word: [Character], _ row: Int, _ col: Int, _ current: [Character]) -> Bool {
-        guard (0..<board.count) ~= row && (0..<board[row].count) ~= col && !visited[row][col] else {
-            return false
-        }
-        
-        var newVisited = visited
-        newVisited[row][col] = true
-        
-        var newCurrent = current
-        newCurrent.append(board[row][col])
-        if newCurrent[newCurrent.count - 1] != word[newCurrent.count - 1] {
-            return false
-        }
-        
-        if newCurrent == word {
+
+    func traverse(_ board: inout [[Character]], _ checked: Int, _ row: Int, _ col: Int, _ threshold: Int, _ target: [Character]) -> Bool {
+        if checked == threshold {
             return true
         }
+
+        guard (0..<board.count) ~= row && (0..<board[0].count) ~= col else {
+            return false
+        }
+
+        guard board[row][col] == target[checked] else {
+            return false
+        }
         
-        return traverse(board, newVisited, word, row-1, col, newCurrent)
-        || traverse(board, newVisited, word, row+1, col, newCurrent)
-        || traverse(board, newVisited, word, row, col-1, newCurrent)
-        || traverse(board, newVisited, word, row, col+1, newCurrent)
+        let temp = board[row][col]
+        board[row][col] = "#"
+
+        let result = traverse(&board, checked + 1, row + 1, col, threshold, target)
+        || traverse(&board, checked + 1, row - 1, col, threshold, target)
+        || traverse(&board, checked + 1, row, col + 1, threshold, target)
+        || traverse(&board, checked + 1, row, col - 1, threshold, target)
+
+        board[row][col] = temp
+
+        return result
     }
 }
