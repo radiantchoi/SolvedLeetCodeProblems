@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0079-word-search) |
 | [0119-pascals-triangle-ii](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0119-pascals-triangle-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0322-coin-change](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0322-coin-change) |
 | [0436-find-right-interval](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0436-find-right-interval) |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
@@ -92,5 +93,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0119-pascals-triangle-ii](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0119-pascals-triangle-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0322-coin-change](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
