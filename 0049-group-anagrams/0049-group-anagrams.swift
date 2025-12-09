@@ -13,19 +13,19 @@ class Solution {
                 }
             }
 
-            let madeKey = makeKey(for: occurences)
+            let anagramKey = makeAnagramKey(for: occurences)
             
-            if let group = groups[madeKey] {
-                groups[madeKey]!.append(str)
+            if let group = groups[anagramKey] {
+                groups[anagramKey]!.append(str)
             } else {
-                groups[madeKey] = [str]
+                groups[anagramKey] = [str]
             }
         }
 
         return Array(groups.values)
     }
 
-    func makeKey(for occurences: [Character: Int]) -> String {
+    func makeAnagramKey(for occurences: [Character: Int]) -> String {
         return occurences.keys.sorted().reduce("") { previous, key in 
             var previous = previous
             previous += String(key)
