@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0079-word-search) |
 | [0119-pascals-triangle-ii](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0322-coin-change) |
 | [0436-find-right-interval](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0436-find-right-interval) |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0049-group-anagrams) |
+| [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
 ## Bit Manipulation
 |  |
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0079-word-search) |
+| [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
 ## Backtracking
 |  |
 | ------- |
@@ -98,5 +101,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0119-pascals-triangle-ii](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0322-coin-change) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
