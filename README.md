@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0049-group-anagrams) |
 | [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0208-implement-trie-prefix-tree) |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
 ## Bit Manipulation
 |  |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0208-implement-trie-prefix-tree) |
 ## Backtracking
 |  |
 | ------- |
@@ -107,8 +109,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0208-implement-trie-prefix-tree) |
 ## Memoization
 |  |
 | ------- |
 | [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
+## Design
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
