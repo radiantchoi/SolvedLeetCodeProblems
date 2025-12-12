@@ -1,4 +1,3 @@
-
 class Trie {
     private let node: TrieNode
 
@@ -8,27 +7,18 @@ class Trie {
     
     func insert(_ word: String) {
         var node = node
-        let spread = word.map { String($0) }
 
-        for i in 0..<spread.count {
-            let letter = spread[i]
-
+        for letter in word {
             if let childNode = node.children[letter] {
-                if i == spread.count - 1 {
-                    childNode.isTerminating = true
-                }
-
                 node = childNode
             } else {
                 let newNode = TrieNode()
-                if i == spread.count - 1 {
-                    newNode.isTerminating = true
-                }
-
                 node.children[letter] = newNode
                 node = newNode
             }
         }
+
+        node.isTerminating = true
     }
     
     func search(_ word: String) -> Bool {
@@ -46,9 +36,7 @@ class Trie {
     }
 
     private func traverse(startsWith node: inout TrieNode, quote: String) -> Bool {
-        let spread = quote.map { String($0) }
-
-        for letter in spread {
+        for letter in quote {
             guard let childNode = node.children[letter] else {
                 return false
             }
@@ -61,10 +49,10 @@ class Trie {
 }
 
 class TrieNode {
-    var children: [String: TrieNode]
+    var children: [Character: TrieNode]
     var isTerminating: Bool
 
-    init(children: [String: TrieNode] = [:], isTerminating: Bool = false) {
+    init(children: [Character: TrieNode] = [:], isTerminating: Bool = false) {
         self.children = children
         self.isTerminating = isTerminating
     }
