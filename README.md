@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
@@ -118,4 +119,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0208-implement-trie-prefix-tree) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
