@@ -23,9 +23,7 @@ class WordDictionary {
     }
     
     func search(_ word: String) -> Bool {
-        var node = root
-
-        return traverse(node, Array(word), 0)
+        return traverse(root, Array(word), 0)
     }
 
     private func traverse(_ node: TrieNode, _ quote: [Character], _ starting: Int) -> Bool {
