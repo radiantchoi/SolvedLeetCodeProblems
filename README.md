@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0112-path-sum) |
+| [0226-invert-binary-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0226-invert-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -68,12 +69,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0112-path-sum) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0226-invert-binary-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0226-invert-binary-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0417-pacific-atlantic-water-flow) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0112-path-sum) |
+| [0226-invert-binary-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0417-pacific-atlantic-water-flow) |
 ## Binary Tree
@@ -81,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0112-path-sum) |
+| [0226-invert-binary-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0226-invert-binary-tree) |
 ## Counting
 |  |
 | ------- |
