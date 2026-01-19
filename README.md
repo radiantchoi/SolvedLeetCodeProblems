@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0417-pacific-atlantic-water-flow) |
 | [0436-find-right-interval](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0436-find-right-interval) |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0049-group-anagrams) |
+| [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [0436-find-right-interval](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0436-find-right-interval) |
 ## Two Pointers
 |  |
@@ -92,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Hash Table
@@ -102,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0142-linked-list-cycle-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0208-implement-trie-prefix-tree) |
+| [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
 ## Bit Manipulation
 |  |
@@ -167,4 +171,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0207-course-schedule) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
