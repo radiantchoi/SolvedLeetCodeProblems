@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0436-find-right-interval](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0436-find-right-interval) |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2784-check-if-array-is-good](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2784-check-if-array-is-good) |
 ## Matrix
 |  |
 | ------- |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [0436-find-right-interval](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0436-find-right-interval) |
+| [2784-check-if-array-is-good](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2784-check-if-array-is-good) |
 ## Two Pointers
 |  |
 | ------- |
@@ -108,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
+| [2784-check-if-array-is-good](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2784-check-if-array-is-good) |
 ## Bit Manipulation
 |  |
 | ------- |
