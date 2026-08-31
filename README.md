@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0198-house-robber) |
+| [0217-contains-duplicate](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0217-contains-duplicate) |
 | [0322-coin-change](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0417-pacific-atlantic-water-flow) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0049-group-anagrams) |
+| [0217-contains-duplicate](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [0436-find-right-interval](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0436-find-right-interval) |
 | [2784-check-if-array-is-good](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2784-check-if-array-is-good) |
@@ -108,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0142-linked-list-cycle-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0208-implement-trie-prefix-tree) |
+| [0217-contains-duplicate](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [2308-divide-array-into-equal-pairs](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2308-divide-array-into-equal-pairs) |
 | [2784-check-if-array-is-good](https://github.com/radiantchoi/SolvedLeetCodeProblems/tree/master/2784-check-if-array-is-good) |
